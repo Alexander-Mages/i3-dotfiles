@@ -1,0 +1,12 @@
+[2021-01-17 20:17:53.440] [sharedprocess] [info] main {"machineId":"6ca3d707bf40e47ecf765dc4bc8edfb3e5293039acf653cb80724a3832e64e8d","windowId":2}
+[2021-01-17 20:17:53.440] [sharedprocess] [error] [File Watcher (node.js)] Failed to watch /home/alex/.config/Code/User for changes using fs.watch() (TypeError: Cannot redefine property: owner)
+[2021-01-17 20:17:53.543] [sharedprocess] [error] [File Watcher (node.js)] Failed to watch /home/alex/.config/Code/User/snippets for changes using fs.watch() (TypeError: Cannot redefine property: owner)
+[2021-01-17 20:17:53.543] [sharedprocess] [error] [File Watcher (node.js)] Failed to watch /home/alex/.vscode for changes using fs.watch() (TypeError: Cannot redefine property: owner)
+[2021-01-17 20:17:53.842] [sharedprocess] [info] Deleted from disk eamodio.gitlens /home/alex/.vscode/extensions/eamodio.gitlens-11.1.2
+[2021-01-17 20:17:55.368] [sharedprocess] [info] Installing extension: tintoy.msbuild-project-tools
+[2021-01-17 20:17:56.606] [sharedprocess] [info] Downloaded extension: tintoy.msbuild-project-tools undefined
+[2021-01-17 20:17:58.632] [sharedprocess] [info] Extracted extension to /home/alex/.vscode/extensions/.tintoy.msbuild-project-tools-0.3.11: tintoy.msbuild-project-tools
+[2021-01-17 20:17:58.632] [sharedprocess] [info] Renamed to /home/alex/.vscode/extensions/tintoy.msbuild-project-tools-0.3.11
+[2021-01-17 20:17:58.633] [sharedprocess] [info] Installation completed. tintoy.msbuild-project-tools
+[2021-01-17 20:17:58.647] [sharedprocess] [info] Extensions installed successfully: tintoy.msbuild-project-tools
+[2021-01-17 20:18:33.465] [sharedprocess] [info] Starting to clean up unused language packs.

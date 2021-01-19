@@ -1,0 +1,23 @@
+[2021-01-17 20:15:54.522] [exthost] [info] extension host started
+[2021-01-17 20:15:54.576] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-01-17 20:15:54.576] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-01-17 20:15:54.585] [exthost] [info] ExtensionService#_doActivateExtension jchannon.csharpextensions {"startup":false,"extensionId":{"value":"jchannon.csharpextensions","_lower":"jchannon.csharpextensions"},"activationEvent":"onLanguage:csharp"}
+[2021-01-17 20:15:54.585] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/alex/.vscode/extensions/jchannon.csharpextensions-1.3.1/out/src/extension
+[2021-01-17 20:15:54.667] [exthost] [info] ExtensionService#_doActivateExtension k--kato.docomment {"startup":false,"extensionId":{"value":"k--kato.docomment","_lower":"k--kato.docomment"},"activationEvent":"onLanguage:csharp"}
+[2021-01-17 20:15:54.667] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/alex/.vscode/extensions/k--kato.docomment-0.1.20/out/src/extension
+[2021-01-17 20:15:54.691] [exthost] [info] ExtensionService#_doActivateExtension ms-dotnettools.csharp {"startup":false,"extensionId":{"value":"ms-dotnettools.csharp","_lower":"ms-dotnettools.csharp"},"activationEvent":"onLanguage:csharp"}
+[2021-01-17 20:15:54.691] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/alex/.vscode/extensions/ms-dotnettools.csharp-1.23.8/dist/extension
+[2021-01-17 20:15:54.790] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-01-17 20:15:54.790] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-01-17 20:15:54.792] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2021-01-17 20:15:54.792] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-01-17 20:15:54.805] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-01-17 20:15:54.805] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-01-17 20:15:54.825] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2021-01-17 20:15:54.825] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-01-17 20:15:54.828] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2021-01-17 20:15:54.828] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2021-01-17 20:15:54.868] [exthost] [info] ExtensionService#_doActivateExtension tintoy.msbuild-project-tools {"startup":true,"extensionId":{"value":"tintoy.msbuild-project-tools","_lower":"tintoy.msbuild-project-tools"},"activationEvent":"workspaceContains:**/*.*proj,**/*.props,**/*.targets"}
+[2021-01-17 20:15:54.869] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/alex/.vscode/extensions/tintoy.msbuild-project-tools-0.3.10/out/src/extension/extension
+[2021-01-17 20:15:55.129] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-01-17 20:15:55.129] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js

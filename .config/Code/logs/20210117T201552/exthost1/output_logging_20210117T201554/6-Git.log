@@ -1,0 +1,7 @@
+Looking for git in: git
+Using git 2.29.2 from git
+> git rev-parse --git-dir
+Open repository: /home/alex/Workspace/VisualStudio/HackableAuthenticationChallenge
+> git status -z -u
+Open repository: /home/alex/Workspace/VisualStudio/HackableAuthenticationChallenge
+Warning: Failed to watch ref '/home/alex/Workspace/VisualStudio/HackableAuthenticationChallenge/.git/refs/remotes/origin/master', is most likely packed.

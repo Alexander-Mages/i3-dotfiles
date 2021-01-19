@@ -9,6 +9,6 @@ app.window.position.x=645
 autologin.canonical_username="ishjeoevru"
 storage.last-location="/home/alex/.cache/spotify/Storage"
 app.window.position.width=630
-core.clock_delta=21589
+core.clock_delta=-1
 app.last-launched-version="1.1.42.622.gbd112320"
 app.autostart-configured=true

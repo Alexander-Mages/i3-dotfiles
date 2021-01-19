@@ -22,7 +22,7 @@ exec --no-startup-id /home/alex/.config/polybar/launch.sh
 exec --no-startup-id /home/alex/.screenlayout/final.sh
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id picom -b --shadow-exclude '!focused' -l -24 -t -24
-
+exec --no-startup-id neofetch > ~/.cache/neofetch
 
 
 for_window [class="^.*"] border pixel 0
@@ -67,7 +67,7 @@ bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
 #THIS HAS BEEN CHANGED! IT LAUNCHES ROFI
-bindsym $mod+d exec "rofi --no-startup-id -show drun -eh 2"
+bindsym $mod+d exec "rofi -show drun"
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -222,3 +222,5 @@ client.placeholder      $bg     $bg     $fg  $bg       $bg
 client.background       $bg
 
 
+
+bindsym $mod+Print exec --no-startup-id xfce4-screenshooter

@@ -18,6 +18,7 @@ module-margin-left = 0
 module-margin-right = 0
 font-0 = Material Design Icons:pixelsize=15:style:Regular;3
 font-1 = Hack:pixelsize=11:style=Bold;3
+#module
 modules-left = launcher
 wm-restack = i3
 override-redirect = true
@@ -45,6 +46,7 @@ font-0 = Material Design Icons:pixelsize=17:style:Regular;3
 font-1 = Nasalization:pixelsize=12:style=Regular;2
 ;border-size = 2
 ;border-color = #dfdfdf
+#module
 modules-center = i3 
 wm-restack = i3
 override-redirect = true
@@ -59,30 +61,36 @@ bottom = false
 
 
 [bar/datee]
-width = 14%
+#14/18
+width = 20%
 height = 23px
-offset-x = 83%
+#83%
+offset-x = 77%
 offset-y = 17px
 radius = 6
 fixed-center = true
 background = #1f2430
 ;foreground = #9ae0bd
-padding-left = 29
-padding-right = 
+#29
+padding-left = 1
+padding-right = 1
 module-margin-left = 0
-module-margin-right = 0
+module-margin-right = 2.5
 font-0 = Material Design Icons:pixelsize=12:style:Bold;3
 font-1 = Nasalization:pixelsize=11:style=Regular;2
+font-2 = FantasqueSansMono Nerd Font:style=Regular
 ;border-size = 0
 ;border-color = #bf4040
-modules-left = date
-modules-right = 
+#module
+modules-left = date 
+modules-center = 
+modules-right = vpn ping
 wm-restack = i3
 override-redirect = true
 cursor-click = pointer
 cursor-scroll = default
 bottom = false
-tray-position = left
+#tray-position = left
 tray-detached = true
 tray-maxsize =30
 tray-background =  #1f2430
@@ -91,9 +99,11 @@ tray-offset-x = 1%
 ; ######################## Bar masked ########################
 
 [bar/masked]
-width = 17%
+#21
+width = 22.5%
 height = 30px
-offset-x = 82%
+#78
+offset-x = 76.5%
 offset-y = 13px
 radius = 10
 fixed-center = true
@@ -102,6 +112,7 @@ padding-left = 0
 padding-right = 0
 font-0 = Material Design Icons:pixelsize=17:style:Bold;5
 font-1 = Hack:pixelsize=12:style=Bold;4
+#module
 modules-left =  
 modules-right = mtu
 wm-restack = i3
@@ -113,6 +124,7 @@ bottom = false
 ; ######################## Bar quicks ########################
 
 [bar/quicks]
+
 width = 8%
 height = 24px
 offset-x = 3.2%
@@ -129,6 +141,7 @@ font-0 = Material Design Icons:pixelsize=16:style:Regular;3
 font-1 = Hack:pixelsize=11:style=Bold;3
 ;border-size = 0
 ;border-color = #bf4040
+#module
 modules-center = ffox sspot tthu ccam cclip
 wm-restack = i3
 override-redirect = true
@@ -191,35 +204,41 @@ click-left = bash /home/alex/.config/polybar/scripts/powermenu.sh
 format-background =#141720  
 
 
-[module/volume]
-
-type = internal/alsa
-format = <label>
-label-volume = "󰎆 %{T2}%percentage%%{T-} "
-label-volume-foreground =  #7575a3
-label-muted = "󱄡  "
-label-muted-foreground =  #7575a3
-poll-interval = 10
-sink = alsa_output.pci-0000_00_1f.3.analog-stereo
-use-ui-max = false
+[module/vpn]
+type = custom/script
+exec = /home/alex/.config/polybar/scripts/vpn.sh
 interval = 5
-
+click-left = /opt/piavpn/bin/pia-client
 
 [module/launcher]
-
-
 type = custom/text
 content = " 󰻀 "
 content-foreground =  #c6538c
-click-left = rofi -show drun -eh 2 -bw 0  &
+click-left = rofi -show drun &
 interval = 50
 
 
-[module/sep]
-content = " ❯ "
-type = custom/text
-content-foreground = #030b11
-margin = 0
+[module/ping]
+type = custom/script
+exec = /home/alex/.config/polybar/scripts/ping.sh
+interval = 2.5
+click-left = gedit /home/alex/.config/polybar/scripts/host.txt
+
+
+#####
+##########
+#############
+##BELOW IS APP LAUNCHERS
+#WHEN ADDING DONT FORGET TO INCREASE WIDTH OF "quicks" BAR
+
+
+
+
+
+
+
+
+
 
 
 [module/ccam]
