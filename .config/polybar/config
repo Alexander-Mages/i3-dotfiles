@@ -193,7 +193,7 @@ poll-interval = 50
 ;tail = true
 label-background =   #1f2430
 label-foreground =  #b3b3b3
-click-left = gsimplecal
+click-left = nm-connection-editor
 
 [module/mtu]
 
