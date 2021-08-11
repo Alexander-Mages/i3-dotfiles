@@ -1,3 +1,0 @@
-[2021-01-02 16:08:58.655] [sharedprocess] [info] main {"machineId":"6ca3d707bf40e47ecf765dc4bc8edfb3e5293039acf653cb80724a3832e64e8d","windowId":2}
-[2021-01-02 16:08:58.733] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/alex/.config/Code/User/snippets'
-[2021-01-02 16:09:38.676] [sharedprocess] [info] Starting to clean up unused language packs.
